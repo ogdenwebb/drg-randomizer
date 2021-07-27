@@ -2,7 +2,7 @@ import json
 import tables
 import random
 
-from os import absolutePath
+from os import absolutePath, getAppDir, joinPath
 
 # TODO: generate N dwarfs/team (with option to ignore/avoid duplication)
 
@@ -10,8 +10,8 @@ from os import absolutePath
 randomize()
 
 let
-  dwarfsJson = parseFile(absolutePath("dwarfs.json"))
-  perksJson = parseFile(absolutePath("perks.json"))
+  dwarfsJson = parseFile(joinPath(getAppDir(),"dwarfs.json"))
+  perksJson = parseFile(joinPath(getAppDir(), "perks.json"))
 
 proc randomizePerks(data: JsonNode): seq[JsonNode] =
   let
