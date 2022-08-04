@@ -18,14 +18,26 @@
             {
                 "name": "Cryo Cannon",
                 "mods": {
-                    "tier1": ["Larger Pressure Chamber", "Faster Turbine Spinup ", "Stronger Cooling Unit"],
-                    "tier2": ["Larger Reserve Tank ", "Overclocked Ejection Turbine", "Bypassed Integrity Check"],
+                    "tier1": ["Larger Pressure Chamber", "Faster Turbine Spinup", "Stronger Cooling Unit"],
+                    "tier2": ["Larger Reserve Tank", "Overclocked Ejection Turbine", "Bypassed Integrity Check"],
                     "tier3": ["Improved Pump", "Increased Flow Volume"],
                     "tier4": ["Hard Mixture", "Supercooling Mixture", "Larger Reserve Tank"],
-                    "tier5": ["Fragile", "Cold Radiance "]
+                    "tier5": ["Fragile", "Cold Radiance"]
                 },
                 "overclock": ["Improved Thermal Efficiency", "Tuned Cooler", "Flow Rate Expansion",
                              "Ice Spear", "Ice Storm", "Snowball"]
+            },
+			{
+                "name": "Corrosive Sludge Pump",
+                "mods": {
+                    "tier1": ["High Capacity Tanks", "Better Air Pressurizer", "Air Sensitive Compound"],
+                    "tier2": ["Dyse Nozzle", "Atomizer Nozzle", "Potent Goo Mix"],
+                    "tier3": ["Supersaturation", "More Goo Canisters"],
+                    "tier4": ["Spillback Extension", "Improved Spooling Mechanism"],
+                    "tier5": ["Protein Disruption Mix", "Fluoroantimonic Acid"]
+                },
+                "overclock": ["Hydrogen Ion Additive", "AG Mixture", "Volatile Impact Mixture",
+                             "Disperser Compound", "Goo Bomber Special", "Sludge Blast"]
             }
         ],
 
@@ -53,6 +65,18 @@
                 },
                 "overclock": ["Energy Rerouting", "Magnetic Cooling Unit", "Heat Pipe",
                              "Heavy Hitter", "Overcharger", "Persistent Plasma"]
+            },
+            {
+                "name": "Colette Wave Cooker",
+                "mods": {
+                    "tier1": ["Convex Lens", "Magnetron Tube", "Concave Lens"],
+                    "tier2": ["Heat Sink", "Larger Power Supply", "Thermoelectric Cooler"],
+                    "tier3": ["Densification Ray", "Temperature Amplifier"],
+                    "tier4": ["Wide Lens Add-on", "Power Supply Overdrive"],
+                    "tier5": ["Contagion Transmitter", "Boiler Ray", "Exothermic Reactor"]
+                },
+                "overclock": ["Super Focus Lens", "Liquid Cooling System", "Diffusion Ray",
+                             "Mega Power Supply", "Gamma Contamination", "Blistering Necrosis"]
             }
         ],
 
@@ -66,7 +90,7 @@
             "name": "Satchel Charge (C4)",
             "mods": {
                 "tier1": ["Fragmentary Shell", "Extra Satchel Charge", "Bigger Charge"],
-                "tier2": "Kill Switch",
+                "tier2": ["Kill Switch"],
                 "tier3": ["Extra Satchel Charge", "Volatile Compound"],
                 "tier4": ["Big Bang", "Concussive Blast", "Rock Mover"]
             }
@@ -76,8 +100,8 @@
             "mods": {
                 "tier1": ["Barbed Drills", "Hardened Drill Tips", "Expanded Fuel Tanks"],
                 "tier2": ["Magnetic Refrigeration", "Streamlined Integrity Check"],
-                "tier3": "Supercharged Motor",
-                "tier4":  ["Increased Tank Pressure", "Bloody Cold Drills"]
+                "tier3": ["Supercharged Motor"],
+                "tier4": ["Increased Tank Pressure", "Bloody Cold Drills"]
             }
         },
         "throwable": [
@@ -88,9 +112,9 @@
         "armor": {
             "name": "Mole",
             "mods": {
-                "tier1": ["Imroved Generator", "Boosted Convertor", "Bigger Mineral Bag"],
-                "tier2": ["Overcharge", "Healty"],
-                "tier3": "Resistance",
+                "tier1": ["Improved Generator", "Boosted Converter", "Bigger Mineral Bag"],
+                "tier2": ["Overcharger", "Healthy"],
+                "tier3": ["Resistance"],
                 "tier4": ["Shockwave", "Static Discharge", "Breathing Room"]
             }
         }
@@ -123,6 +147,18 @@
                 },
                 "overclock": ["Super-Slim Rounds", "Well Oiled Machine", "EM Refire Booster",
                              "Light-Weight Rounds", "Turret Arc", "Turret EM Discharge"]
+            },
+            {
+                "name": "LOK-1 Smart Rifle",
+                "mods": {
+                    "tier1": ["Increased Caliber Rounds", "Expanded Ammo Bags"],
+                    "tier2": ["Macro Lens", "CCD Array Add-On", "Zoom Lens"],
+                    "tier3": ["Electro-Chemical Rounds", "SMЯT Targeting Software™", "Super Blowthrough Rounds"],
+                    "tier4": ["Shutter Speed Sensor", "Aperture Extension"],
+                    "tier5": ["Electric Generator Mod", "Unstable Lock Mechanism", "Fear Frequency"]
+                },
+                "overclock": ["Eraser", "Armor Break Module", "Explosive Chemical Rounds",
+                             "Seeker Rounds", "Executioner", "Neuro-Lasso"]
             }
         ],
 
@@ -151,6 +187,18 @@
                 "overclock": ["Light-Weight Cases", "Roll Control", "Stronger Plasma Current",
                              "Return to Sender", "High Voltage Crossover", "Spinning Death",
                              "Inferno"]
+            },
+			{
+                "name": "Shard Diffractor",
+                "mods": {
+                    "tier1": ["Impact Splash", "Increased Energy Density", "Larger Battery"],
+                    "tier2": ["Soft tissue Disruption", "Particple Spattering"],
+                    "tier3": ["Aluminum Foil DIY", "Open Structure Battery"],
+                    "tier4": ["High-Initensity Heating", "Nitrogen Vaporizer"],
+                    "tier5": ["Bio-Mass Converter", "Dazzler Module"]
+                },
+                "overclock": ["Efficiency Tweaks", "Feedback Loop", "Automated Beam Controller", 
+                             "Volatile Impact Reactor", "Endothermic Explosion", "Overdrive Booster"]
             }
         ],
 
@@ -173,7 +221,7 @@
             "name": "Platform gun",
             "mods": {
                 "tier1": ["Supercharged Feed Mechanism", "Expanded Ammo Bags", "High Capacity Magazine"],
-                "tier2": "Plastcrete MKII",
+                "tier2": ["Plastcrete MKII"],
                 "tier3": ["Expanded Ammo Bags", "Repellant Additive", "Disabled Inertia Inhibitor"]
             }
         },
@@ -185,9 +233,9 @@
         "armor": {
             "name": "Owl",
             "mods": {
-                "tier1": ["Imroved Generator", "Boosted Convertor", "Bigger Mineral Bag"],
-                "tier2": ["Overcharge", "Healty"],
-                "tier3": "Resistance",
+                "tier1": ["Improved Generator", "Boosted Converter", "Bigger Mineral Bag"],
+                "tier2": ["Overcharger", "Healthy"],
+                "tier3": ["Resistance"],
                 "tier4": ["Shockwave", "Static Discharge", "Breathing Room"]
             }
         }
@@ -212,7 +260,7 @@
                              "Lead Storm"]
             },
             {
-                "name": "Thuderhead Heavy Autocannon",
+                "name": "Thunderhead Heavy Autocannon",
                 "mods": {
                     "tier1": ["Increased Caliber Rounds", "High Capacity Magazine", "Expanded Ammo Bags"],
                     "tier2": ["Tighter Barrel Alignment", "Improved Gas System", "Lighter Barrel Assembly"],
@@ -222,6 +270,19 @@
                 },
                 "overclock": ["Composite Drums", "Splintering Shells", "Carpet Bomber",
                              "Combat Mobility", "Big Bertha", "Neurotoxin Payload"]
+            },
+			{
+                "name": "\"Hurricane\" Guided Rocket System",
+                "mods": {
+                    "tier1": ["Missile Belt", "Pressurized Gas Cylinders", "Increased Blast Radius"],
+                    "tier2": ["Bigger Jet Engine", "Anti-Tank Missiles"],
+                    "tier3": ["Nano Missiles", "Improved Feed Mechanism"],
+                    "tier4": ["Shrapnel Load", "Zip Fuel"],
+                    "tier5": ["Napalm-Infused Rounds", "Uncontrolled Decompression", "Nitroglycerin Rounds"]
+                },
+                "overclock": ["Manual Guidance Cutoff", "Overtuned Feed Mechanism", "Fragmentation Missiles",
+							  "Plasma Burster Missiles", "Minelayer System", "Jet Fuel Homebrew", 
+							  "Salvo Module"]
             }
         ],
 
@@ -250,6 +311,18 @@
                 "overclock": ["Composite Casings", "Full Chamber Seal", "Compact Mags",
                              "Experimental Rounds", "Electro Minelets", "Micro Flechettes",
                              "Lead Spray"]
+            },
+			{
+                "name": "ArmsKore Coil Gun",
+                "mods": {
+                    "tier1": ["Extra Coil", "Larger Battery", "Optimized Magnetics Circuit"],
+                    "tier2": ["Overcharger", "Controlled Magnetic Flow", "Improved Feeding System"],
+                    "tier3": ["Concussive Shockwave", "Fear Trajectory"],
+                    "tier4": ["Defence Enhancement", "Shockwave"],
+                    "tier5": ["Necro-Thermal Catalyst", "Dilated Injector System", "Electric Trail"]
+                },
+                "overclock": ["Ultra-Magnetic Coils", "Backfeeding Module", "Re-atomizer", 
+							  "The Mole", "Hellfire", "Triple-Tech Chambers"]
             }
         ],
 
@@ -271,7 +344,7 @@
             "name": "Zipline Launcher",
             "mods": {
                 "tier1": ["Expanded Ammo Bags", "Upgraded Connection Joint", "Reinforced Anchor"],
-                "tier2": "Reinforced Cable",
+                "tier2": ["Reinforced Cable"],
                 "tier3": ["Disconnection Protection", "Increased Motor Traction"]
             }
         },
@@ -283,9 +356,9 @@
         "armor": {
             "name": "Barracuda",
             "mods": {
-                "tier1": ["Imroved Generator", "Boosted Convertor", "Bigger Mineral Bag"],
-                "tier2": ["Overcharge", "Healty"],
-                "tier3": "Resistance",
+                "tier1": ["Improved Generator", "Boosted Converter", "Bigger Mineral Bag"],
+                "tier2": ["Overcharger", "Healthy"],
+                "tier3": ["Resistance"],
                 "tier4": ["Shockwave", "Static Discharge", "Breathing Room"]
             }
         }
@@ -321,6 +394,19 @@
                 "overclock": ["Hoverclock", "Minimal Clips", "Active Stability System",
                               "Hipster", "Electrocuting Focus Shots", "Supercooling Chamber"
                              ]
+            },
+			{
+                "name": "DRAK-25 Plasma Carbine",
+                "mods": {
+                    "tier1": ["High-Volume Plasma Field", "Heat Shield", "Stronger Plasma Accelerator"],
+                    "tier2": ["Larger Battery", "Increased Caliber Rounds"],
+                    "tier3": ["Custom Coil Alignment", "Gen 2 Cooling System", "Hot Feet"],
+                    "tier4": ["Overcharged PCF", "Plasma Splash", "Destructive Resonance AMP"],
+                    "tier5": ["Manual Heat Dump", "Thermal Feedback Loop"]
+                },
+                "overclock": ["Thermal Liquid Coolant", "Impact Deflection", "Rewiring Mod", 
+							  "Aggressive Venting", "Overtuned Particle Accelerator", "Shield Battery Booster", 
+							  "Thermal Exhaust Feedback"]
             }
         ],
 
@@ -348,6 +434,18 @@
                 },
                 "overclock": ["Minimal Magazines", "Custom Casings", "Cryo Minelets",
                              "Embedded Detonators", "Gas Recycling"]
+            },
+			{
+                "name": "Nishanka Boltshark X-80",
+                "mods": {
+                    "tier1": ["Special Bolt: Pheromone Dart", "Special Bolt: Chemical Explosion", "Special Bolt: Taser"],
+                    "tier2": ["Broadhead Bolts", "Increased Quiver Capacity", "Expanded Special Quiver"],
+                    "tier3": ["Stabiliziing Arm Brace", "Reinforced String"],
+                    "tier4": ["Battle Frenzy", "Radio Transmitter Module"],
+                    "tier5": ["Potent Special Bolts", "Magnetic Shafts", "Banshee Module"]
+                },
+                "overclock": ["The Specialist", "Quickfire", "Cryo Bolt", 
+							  "Fire Bolt", "Bodkin Points", "Trifork Volley"]
             }
         ],
 
@@ -369,7 +467,7 @@
             "name": "Grappling Hook",
             "mods": {
                 "tier1": ["Improved Recharger", "Longer Cable"],
-                "tier2": "Greater Cable Stretch",
+                "tier2": ["Greater Cable Stretch"],
                 "tier3": ["High Velocity Ejection System", "Overcharged Winch"],
                 "tier4": ["Safety First", "Momentum", "Bypassed Integrity Check"]
             }
@@ -382,9 +480,9 @@
         "armor": {
             "name": "Fox",
             "mods": {
-                "tier1": ["Imroved Generator", "Boosted Convertor", "Bigger Mineral Bag"],
-                "tier2": ["Overcharge", "Healty"],
-                "tier3": "Resistance",
+                "tier1": ["Improved Generator", "Boosted Converter", "Bigger Mineral Bag"],
+                "tier2": ["Overcharger", "Healthy"],
+                "tier3": ["Resistance"],
                 "tier4": ["Shockwave", "Static Discharge", "Breathing Room"]
             }
         }
